@@ -1,0 +1,844 @@
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+
+/* Bootstrap Carousel */
+
+#header-carousel .carousel-inner .item {
+    width: 100%;
+    height: 682px;
+}
+
+.carousel-control {
+    height: 50px;
+    width: 50px;
+    margin-top: 270px;
+}
+
+#left_arrow {
+    width: 48px;
+    height: 48px;
+    margin-left: 10px;
+    border: solid 2px #ffffff;
+    border-radius: 10px;
+    background: transparent url(../images/icons/left-arrow.png) no-repeat;
+    background-position: center;
+}
+
+#right_arrow {
+    width: 48px;
+    height: 48px;
+    margin-left: -60px;
+    border: solid 2px #ffffff;
+    border-radius: 10px;
+    background: transparent url(../images/icons/right-arrow.png) no-repeat;
+    background-position: center;
+}
+
+.slide {
+    width: 100%;
+    height: 682px;
+}
+
+#image1 {
+    background-image: url('../images/title-img1.jpg');
+    background-size: 100% 100%;
+}
+
+#image2 {
+    background-image: url('../images/title-img2.jpg');
+    background-size: 100% 100%;
+}
+
+#image3 {
+    background-image: url('../images/title-img3.jpg');
+    background-size: 100% 100%;
+}
+
+
+/* Header Navigation Bar */
+
+.menu {
+    height: 30px;
+    margin-left: 650px;
+    padding-top: 8px;
+    list-style: none;
+    background: transparent;
+}
+
+.menu li {
+    position: relative;
+    margin-right: 30px;
+    padding: 4px 9px;
+    float: left;
+    text-align: center;
+    border: none;
+}
+
+.menu li:hover {
+    padding: 4px 9px;
+    border-radius: 5px 5px 0 0;
+    background: #fcff19;
+}
+
+.menu li a {
+    font-family: Roboto;
+    color: #fff;
+    font-size: 15px;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: block;
+    outline: 0;
+}
+
+.menu li:hover a {
+    color: #010101;
+    text-shadow: 1px 1px 1px #ffffff;
+}
+
+
+/* Drop Down */
+
+.dropdown_columns {
+    position: absolute;
+    margin: 3px auto;
+    left: -999em;
+    padding: 10px 5px;
+    float: left;
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: bold;
+    color: #000;
+    text-align: left;
+    line-height: 32px;
+    border-radius: 0 8px 8px 8px;
+    border-top: none;
+    background: #fcff19;
+}
+
+.dropdown_columns {
+    width: 220px;
+}
+
+.menu li:hover .dropdown_columns {
+    top: auto;
+    left: 0;
+    cursor: pointer;
+}
+
+.column {
+    position: relative;
+    margin-left: 5px;
+    margin-right: 5px;
+    float: left;
+    display: inline;
+    text-transform: uppercase;
+}
+
+.column {
+    width: 170px;
+}
+
+.basket {
+    height: 35px;
+    margin-top: -55px;
+    margin-left: -170px;
+    cursor: pointer;
+}
+
+.bike-logo {
+    width: 120px;
+    margin-top: -20px;
+    margin-left: 40px;
+}
+
+.title-txt {
+    margin-top: 150px;
+    font-family: "Rockwell Extra Bold";
+    font-size: 40px;
+    color: #fff;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.icon {
+    margin-top: -70px;
+    margin-left: -45px;
+    opacity: 0.4;
+}
+
+.slider {
+    width: 390px;
+    height: 4px;
+    margin: 0 auto;
+    background-color: #fcff19;
+}
+
+.title-sub {
+    font-family: Roboto;
+    font-size: 28px;
+    color: #fff;
+    text-align: center;
+}
+
+.sub-color {
+    color: #fcff19;
+}
+
+.shop {
+    width: 123px;
+    height: 43px;
+    margin-top: 20px;
+    margin-left: 575px;
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #fcff19;
+    border-radius: 10px;
+    border: none;
+    background-color: #000000;
+}
+
+.shop:hover {
+    font-weight: bold;
+    color: #000000;
+    background-color: #fcff19;
+}
+
+.scroll {
+    margin-left: 590px;
+    margin-top: 150px;
+    cursor: pointer;
+}
+
+
+/* ---------------------------------------------------------*/
+
+
+/*Categories Section
+/* ---------------------------------------------------------*/
+
+#categories {
+    height: 682px;
+    width: 100%;
+    margin-top: -10px;
+    font-family: Roboto;
+    background: url(../images/categories/background.jpg) no-repeat center center fixed;
+    background-size: 100% 100%;
+}
+
+.category-name {
+    position: absolute;
+    margin-top: 70px;
+    margin-left: 550px;
+    font-size: 28px;
+    font-weight: bold;
+    color: #000;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.category-image {
+    list-style: none;
+}
+
+.category-image li {
+    margin-top: 170px;
+    margin-left: 50px;
+    float: left;
+}
+
+.image1 {
+    width: 345px;
+    height: 285px;
+    cursor: pointer;
+    background: url(../images/categories/item1.jpg) no-repeat;
+}
+
+.image2 {
+    width: 345px;
+    height: 285px;
+    cursor: pointer;
+    background: url(../images/categories/item2.jpg) no-repeat;
+}
+
+.image3 {
+    width: 345px;
+    height: 285px;
+    cursor: pointer;
+    background: url(../images/categories/item3.jpg) no-repeat;
+}
+
+.category-info {
+    width: 345px;
+    height: 120px;
+    position: absolute;
+    margin-top: 135px;
+}
+
+.title1 {
+    margin-left: 100px;
+    font-size: 15px;
+    color: #fcff19;
+    text-transform: uppercase;
+}
+
+.title2 {
+    margin-left: 110px;
+    font-size: 15px;
+    color: #fcff19;
+    text-transform: uppercase;
+}
+
+.title3 {
+    margin-left: 135px;
+    font-size: 15px;
+    color: #fcff19;
+    text-transform: uppercase;
+}
+
+.text1 {
+    margin-left: 45px;
+    font-size: 16px;
+    color: #fff;
+}
+
+.text2 {
+    margin-left: 75px;
+    font-size: 16px;
+    color: #fff;
+}
+
+.text3 {
+    margin-left: 120px;
+    font-size: 16px;
+    color: #fff;
+}
+
+.store {
+    width: 124px;
+    height: 43px;
+    margin-left: 110px;
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: bold;
+    color: #fff;
+    text-transform: uppercase;
+    border: 4px solid #e6e6e0;
+    border-radius: 10px;
+    opacity: 0;
+    background: transparent;
+    transition: all 0.8s linear;
+}
+
+.hover {
+    position: absolute;
+    border-top: 285px solid transparent;
+    border-left: 346px solid #fcff19;
+    opacity: 0;
+    transition: all 0.8s linear;
+}
+
+.image1:hover .hover,
+.image2:hover .hover,
+.image3:hover .hover {
+    opacity: 0.3;
+}
+
+.image1:hover .store,
+.image2:hover .store,
+.image3:hover .store {
+    margin-top: 205px;
+    opacity: 1;
+}
+
+
+/* ---------------------------------------------------------*/
+
+
+/* Showroom Section
+/* ---------------------------------------------------------*/
+
+.cycle {
+    width: 100%;
+    height: 1550px;
+}
+
+.thumbnails {
+    margin-top: 40px;
+    list-style: none;
+}
+
+.thumbnails li {
+    margin-left: 140px;
+    margin-bottom: 70px;
+    float: left;
+}
+
+.image {
+    width: 300px;
+}
+
+.showcase {
+    margin-left: -100px;
+}
+
+.price {
+    position: absolute;
+    margin-top: 28px;
+    font-family: Roboto;
+    font-size: 15px;
+    color: #000;
+}
+
+.select {
+    font-family: "Myriad Pro";
+    font-size: 12px;
+    color: #000;
+    text-transform: uppercase;
+    border-radius: 10px;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+
+label {
+    width: 110px;
+    position: relative;
+    margin-top: 30px;
+    margin-left: 120px;
+    display: block;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+label::after {
+    width: 40px;
+    height: 100%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    content: ' ';
+    display: block;
+    pointer-events: none;
+    background: url(../images/icons/down_arrow.png) no-repeat center center;
+}
+
+label select {
+    width: 100%;
+    padding: 7px 10px 7px 10px;
+    font-size: 12px;
+    border: 1px solid;
+    border-radius: 10px;
+    cursor: pointer;
+    background: white;
+}
+
+.buy {
+    width: 65px;
+    height: 35px;
+    float: right;
+    margin-top: -40px;
+    margin-left: 240px;
+    font-family: "Myriad Pro";
+    font-size: 12px;
+    color: #fff;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 10px;
+    background-color: #b7b7b7;
+}
+
+.buy:hover {
+    color: #b7b7b7;
+    border: 2px solid #b7b7b7;
+    background-color: #fff;
+}
+
+.buy1 {
+    width: 65px;
+    height: 35px;
+    float: right;
+    margin-top: -40px;
+    margin-left: 240px;
+    font-family: "Myriad Pro";
+    font-size: 12px;
+    color: #ebee17;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 10px;
+    background-color: #000000;
+}
+
+.buy1:hover {
+    color: #000000;
+    background-color: #ebee17;
+}
+
+
+/* ---------------------------------------------------------*/
+
+
+/* About Section
+/* ---------------------------------------------------------*/
+
+.section {
+    height: 1010px;
+    width: 100%;
+    font-family: "Myriad Pro";
+}
+
+.txt-abt {
+    width: 50%;
+    height: 500px;
+    margin-left: 1px;
+    float: left;
+    background-color: #7ddfe0;
+}
+
+.title-section {
+    width: 400px;
+    height: 70px;
+    margin-top: 20px;
+}
+
+.abt {
+    margin-left: 60px;
+    font-size: 44px;
+    font-weight: bold;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+#man-img {
+    width: 220px;
+    height: 310px;
+    margin-left: -25px;
+    margin-top: -265px;
+}
+
+.paragraph {
+    margin-right: 60px;
+    margin-top: 40px;
+    margin-left: 60px;
+    font-size: 18px;
+    color: #fff;
+    text-align: justify;
+}
+
+#abt-img1 {
+    width: 50%;
+    height: 500px;
+    float: left;
+    margin-left: -1px;
+}
+
+#abt-img2 {
+    width: 50%;
+    height: 510px;
+    float: left;
+}
+
+.mission {
+    width: 50%;
+    height: 510px;
+    float: left;
+    background-color: #7ddfe0;
+}
+
+
+/* ---------------------------------------------------------*/
+
+
+/* Portfolio Section
+/* ---------------------------------------------------------*/
+
+.portfolio {
+    height: 853px;
+    width: 100%;
+    background-color: black;
+}
+
+.portfolio-title {
+    width: 100%;
+    height: 140px;
+    background-color: #436979;
+}
+
+.portfolio-name {
+    width: 230px;
+    height: 60px;
+    float: left;
+    margin-top: 40px;
+    margin-left: 500px;
+    padding: 15px;
+    font-family: "Myriad Pro";
+    color: #14cfd1;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    background-color: #1d2e35;
+}
+
+#portfolio1 {
+    width: 25%;
+    height: 250px;
+    float: left;
+}
+
+#portfolio2 {
+    width: 35%;
+    height: 300px;
+    float: left;
+}
+
+#portfolio3 {
+    width: 40%;
+    height: 360px;
+    float: left;
+}
+
+#portfolio4 {
+    width: 25%;
+    height: 232px;
+    margin-top: -110px;
+    float: left;
+}
+
+#portfolio5 {
+    width: 35%;
+    height: 250px;
+    margin-top: -85px;
+    float: left;
+}
+
+#portfolio6 {
+    width: 40%;
+    height: 367px;
+    margin-top: -15px;
+    float: left;
+}
+
+#portfolio7 {
+    width: 25%;
+    height: 233px;
+    margin-top: -232px;
+    float: left;
+}
+
+#portfolio8 {
+    width: 35%;
+    height: 270px;
+    margin-top: -270px;
+    float: left;
+}
+
+
+/* ---------------------------------------------------------*/
+
+
+/* Contact Section
+/* ---------------------------------------------------------*/
+
+.form {
+    height: 530px;
+    width: 100%;
+    position: relative;
+    background: url(../images/contact.jpg) no-repeat center center fixed;
+    background-size: 100% 100%;
+    box-shadow: inset 0 3px 7px rgba(0, 0, 0, .03);
+}
+
+.contact-title {
+    width: 400px;
+    height: 100px;
+    position: absolute;
+    margin-top: 40px;
+    margin-left: 450px;
+    font-family: Roboto;
+    color: #000;
+    font-weight: bold;
+}
+
+.contact-us {
+    margin-left: 80px;
+    font-size: 28px;
+}
+
+.contact-title p {
+    margin-top: 20px;
+    font-family: "Myriad Pro";
+    font-size: 15px;
+}
+
+.contact-form {
+    height: 400px;
+    width: 630px;
+    position: absolute;
+    margin-top: 130px;
+    margin-left: 420px;
+    font-family: "Myriad Pro";
+    font-style: italic;
+}
+
+input[type=text] {
+    width: 180px;
+    height: 30px;
+    margin-top: 20px;
+    margin-left: 25px;
+    padding: 15px;
+    border: solid 1px #dadada;
+    border-radius: 10px;
+    background-color: #fff;
+}
+
+#txtEmail {
+    width: 390px;
+}
+
+#txtmsg {
+    margin-top: 20px;
+    margin-left: 25px;
+    padding: 15px;
+    border: solid 1px #dadada;
+    border-radius: 10px;
+    background-color: #fff;
+}
+
+input[type=submit] {
+    width: 390px;
+    height: 30px;
+    margin-top: 20px;
+    margin-left: 25px;
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: bold;
+    color: #fafafa;
+    text-transform: uppercase;
+    border-radius: 8px;
+    border: none;
+    background-color: #b7b7b7;
+}
+
+input[type=submit]:hover {
+    color: #fcff19;
+    background-color: #000;
+    transition: all 0.8s linear;
+}
+
+
+/* ---------------------------------------------------------*/
+
+
+/* Footer Section
+/* ---------------------------------------------------------*/
+
+footer {
+    height: 60px;
+    width: 100%;
+    position: absolute;
+    background-color: #b5b733;
+}
+
+.footer {
+    margin-left: 700px;
+}
+
+.footer ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    float: left;
+}
+
+.footer ul a {
+    margin-top: 21px;
+    margin-left: 20px;
+    float: right;
+    font-family: Roboto;
+    color: #000;
+    font-size: 15px;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: block;
+}
+
+.footer ul li {
+    margin: 0;
+    padding: 0;
+    position: relative;
+    float: left;
+}
+
+.footer ul a:hover {
+    color: #fff;
+    transition: all 0.8s linear;
+}
+
+
+/* ---------------------------------------------------------*/
+
+
+/* Ribbon Section
+/* ---------------------------------------------------------*/
+
+.box {
+    width: 100px;
+    height: 50px;
+    position: relative;
+    margin-left: 5px;
+    margin-top: 8px;
+}
+
+.box1 {
+    width: 100px;
+    height: 50px;
+    position: absolute;
+    margin-top: 720px;
+    margin-left: 5px;
+}
+
+.ribbon {
+    width: 95px;
+    height: 95px;
+    position: absolute;
+    left: -5px;
+    top: -8px;
+    z-index: 1;
+    overflow: hidden;
+    text-align: right;
+    text-transform: uppercase;
+}
+
+.ribbon span {
+    width: 100px;
+    position: absolute;
+    top: 19px;
+    left: -21px;
+    font-size: 10px;
+    font-weight: bold;
+    color: #FFF;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 20px;
+    transform: rotate(-45deg);
+    display: block;
+    background: #79A70A;
+    background-color: #55782a;
+    background: linear-gradient(#55782a 0%, #55782a 100%);
+    box-shadow: 0 3px 10px -5px rgba(0, 0, 0, 1);
+}
+
+
+/* ---------------------------------------------------------*/
